@@ -22,12 +22,12 @@ public class Onedemo {
 
 
 	public static void main(String[] args) {
-		//11333+222
+		//11333+222111111
 		// // TODO Auto-generated method stub
 		// String str=null;
 		// System.out.println(Objects.equals(str, "a"));
-		// int 鍙橀噺=11;
-		// System.out.println(鍙橀噺);
+		// int 閸欐﹢鍣�=11;
+		// System.out.println(閸欐﹢鍣�);
 		//
 		// System.out.println((int)(Math.random()*900)+100);
 		// Random ran=new Random();
@@ -44,7 +44,7 @@ public class Onedemo {
 //		a.add("1");
 //		a.add("1");a.add("1");a.add("1");a.add("1");a.add("1");
 //		System.out.println(a);
-//		//杩唬鍣�
+//		//鏉╊厺鍞崳锟�
 //		Iterator<String> iter=a.iterator();
 //		while(iter.hasNext()){
 //			String next = iter.next();
@@ -66,26 +66,26 @@ public class Onedemo {
 //		System.out.println(object);
 //		Object remove = map.remove("2");
 //		System.out.println(map);
-//		//鏄惁鍖呭惈key
+//		//閺勵垰鎯侀崠鍛儓key
 //		boolean containsKey = map.containsKey("1");
 //		System.out.println(containsKey);
-//		//鏄惁鍖呭惈value
+//		//閺勵垰鎯侀崠鍛儓value
 //		boolean containsValue = map.containsValue("ww");
 //		System.out.println(containsValue);
-//		//key杞负鏁扮粍锛圞ey鍞竴锛�
+//		//key鏉烆兛璐熼弫鎵矋閿涘湠ey閸烆垯绔撮敍锟�
 //		Set<String> set=map.keySet();
 //		System.out.println(set);
-//		//value杞负鏁扮粍
+//		//value鏉烆兛璐熼弫鎵矋
 //		Collection<String> list=map.values();
 //		System.out.println(list);
-		//閬嶅巻map
+		//闁秴宸籱ap
 		HashMap map=new HashMap<>();
 		map.put("1", "zs");
 		map.put("2", "ls");
 		map.put("3", "ww");
 		System.out.println(map);
-		//key鍜寁alue鍒嗗紑鍙�
-		//鍙杒ey
+		//key閸滃瘉alue閸掑棗绱戦崣锟�
+		//閸欐潚ey
 		Set key=map.keySet();
 		Iterator iterator = key.iterator();
 		while(iterator.hasNext()){
@@ -93,13 +93,13 @@ public class Onedemo {
 			Object object = map.get(next);
 			System.out.println("key "+next+" value "+object);
 		}
-		//鏂规硶浜宔ntry
+		//閺傝纭舵禍瀹攏try
 		Set entrySet = map.entrySet();
 		for(Object ent:entrySet){
-			//鐩存帴鍙栧嚭灏辨槸key鍜寁alue
+			//閻╁瓨甯撮崣鏍у毉鐏忚鲸妲竗ey閸滃瘉alue
 			
 //			System.out.println(ent);
-			//object寮鸿浆entry
+			//object瀵缚娴唀ntry
 			Map.Entry et=(Map.Entry)ent;
 			Object key2 = et.getKey();
 			Object value = et.getValue();
