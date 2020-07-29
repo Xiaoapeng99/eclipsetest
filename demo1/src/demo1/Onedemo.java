@@ -22,7 +22,7 @@ public class Onedemo {
 
 
 	public static void main(String[] args) {
-		//1111
+		//11
 		// // TODO Auto-generated method stub
 		// String str=null;
 		// System.out.println(Objects.equals(str, "a"));
