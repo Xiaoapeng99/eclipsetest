@@ -22,16 +22,12 @@ public class Onedemo {
 
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
 		//11333+222
-=======
-		//111122
->>>>>>> branch 'master' of https://github.com/Xiaoapeng99/eclipsetest.git
 		// // TODO Auto-generated method stub
 		// String str=null;
 		// System.out.println(Objects.equals(str, "a"));
-		// int 变量=11;
-		// System.out.println(变量);
+		// int 鍙橀噺=11;
+		// System.out.println(鍙橀噺);
 		//
 		// System.out.println((int)(Math.random()*900)+100);
 		// Random ran=new Random();
@@ -48,7 +44,7 @@ public class Onedemo {
 //		a.add("1");
 //		a.add("1");a.add("1");a.add("1");a.add("1");a.add("1");
 //		System.out.println(a);
-//		//迭代器
+//		//杩唬鍣�
 //		Iterator<String> iter=a.iterator();
 //		while(iter.hasNext()){
 //			String next = iter.next();
@@ -70,26 +66,26 @@ public class Onedemo {
 //		System.out.println(object);
 //		Object remove = map.remove("2");
 //		System.out.println(map);
-//		//是否包含key
+//		//鏄惁鍖呭惈key
 //		boolean containsKey = map.containsKey("1");
 //		System.out.println(containsKey);
-//		//是否包含value
+//		//鏄惁鍖呭惈value
 //		boolean containsValue = map.containsValue("ww");
 //		System.out.println(containsValue);
-//		//key转为数组（Key唯一）
+//		//key杞负鏁扮粍锛圞ey鍞竴锛�
 //		Set<String> set=map.keySet();
 //		System.out.println(set);
-//		//value转为数组
+//		//value杞负鏁扮粍
 //		Collection<String> list=map.values();
 //		System.out.println(list);
-		//遍历map
+		//閬嶅巻map
 		HashMap map=new HashMap<>();
 		map.put("1", "zs");
 		map.put("2", "ls");
 		map.put("3", "ww");
 		System.out.println(map);
-		//key和value分开取
-		//取key
+		//key鍜寁alue鍒嗗紑鍙�
+		//鍙杒ey
 		Set key=map.keySet();
 		Iterator iterator = key.iterator();
 		while(iterator.hasNext()){
@@ -97,13 +93,13 @@ public class Onedemo {
 			Object object = map.get(next);
 			System.out.println("key "+next+" value "+object);
 		}
-		//方法二entry
+		//鏂规硶浜宔ntry
 		Set entrySet = map.entrySet();
 		for(Object ent:entrySet){
-			//直接取出就是key和value
+			//鐩存帴鍙栧嚭灏辨槸key鍜寁alue
 			
 //			System.out.println(ent);
-			//object强转entry
+			//object寮鸿浆entry
 			Map.Entry et=(Map.Entry)ent;
 			Object key2 = et.getKey();
 			Object value = et.getValue();
